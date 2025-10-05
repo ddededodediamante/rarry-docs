@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+**Rarry** is a web-based platform that allows to create games or projects using visual block-coding, inspired by [Scratch](https://scratch.mit.edu/).
 
 ## Getting Started
 
