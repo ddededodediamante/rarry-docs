@@ -31,7 +31,7 @@ const config = {
   organizationName: "ddededodediamante", // Usually your GitHub org/user name.
   projectName: "rarry-docs", // Usually your repo name.
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -51,20 +51,6 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/ddededodediamante/rarry-docs",
-        },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ["rss", "atom"],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/ddededodediamante/rarry-docs",
-          // Useful options to enforce blogging best practices
-          onInlineTags: "warn",
-          onInlineAuthors: "warn",
-          onUntruncatedBlogPosts: "warn",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -136,17 +122,17 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
+                label: "Website GitHub",
+                href: "https://github.com/ddededodediamante/rarry",
               },
               {
-                label: "GitHub",
+                label: "Docs GitHub",
                 href: "https://github.com/ddededodediamante/rarry",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Rarry, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Rarry, Inc.`,
       },
       prism: {
         theme: prismThemes.github,
