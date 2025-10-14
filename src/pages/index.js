@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="A web-based platform that allows to create games or projects using visual block-coding, inspired by Scratch">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

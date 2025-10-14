@@ -63,7 +63,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/social-card.svg",
+      image: "img/social-card.png",
       colorMode: {
         respectPrefersColorScheme: true,
       },
