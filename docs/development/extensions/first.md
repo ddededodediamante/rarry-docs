@@ -29,7 +29,7 @@ class Extension {
     return {
       /* the code executed by your block */
       helloBlock: () => {
-        return "block"; // since the block is an output, it needs to return something
+        return "block"; // since it's an output, it needs to return something
       },
     };
   }
