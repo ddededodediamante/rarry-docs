@@ -60,7 +60,7 @@ Here's a full list of available properties you can use when defining blocks insi
 | `fields`                | `object`                               | Defines inputs, menus, or statements that appear in the block.                                               | `{ abc: { kind: "value", type: "String" } }` |
 | `tooltip`               | `string`                               | Tooltip text shown when hovering over the block.                                                             | `"Makes the character say something."`       |
 | `color`                 | `string`                               | Custom block color (defaults to category color).                                                             | `"#FFAA00"`                                  |
-| `statementType`         | `string`                               | Optional custom connection check type for statements.                                                      | `"action"`                                   |
+| `statementType`         | `string`                               | Optional custom connection check type for statements.                                                        | `"action"`                                   |
 | `outputType`            | `string`                               | Output type for output blocks.                                                                               | `"Number"`                                   |
 | `outputShape`           | `number`                               | Optional shape override for output blocks (see table below).                                                 | `1`                                          |
 | `promise`               | `boolean`                              | If `true`, code generation will include `await` when calling the extension function.                         | `true`                                       |
@@ -69,8 +69,6 @@ Here's a full list of available properties you can use when defining blocks insi
 | `fields.<name>.default` | `string`                               | Default value shown in the block's shadow input.                                                             | `"default"`                                  |
 | `fields.<name>.items`   | `Array`                                | Menu items for dropdown menus. Can be strings or `{text, value}` objects.                                    | `["left", "right"]`                          |
 | `fields.<name>.accepts` | `string` \| `string[]`                 | (For statement fields) defines which statement types can connect.                                            | `"event"`                                    |
-
----
 
 ### Available Output Shapes
 
@@ -84,7 +82,5 @@ These are the supported values:
 | `3`   | Square    | Used for custom data types                    |
 | `4`   | Bowl      | Used for Arrays (lists)                       |
 | `5`   | Pillow    | Used for Objects                              |
-
----
 
 Each of these shapes is purely visual, they don't change how code generation works, but they help distinguish block types or categories visually.
